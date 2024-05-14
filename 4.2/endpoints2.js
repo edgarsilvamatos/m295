@@ -1,12 +1,14 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const port = 3000;
 const path = require('path');
 
 // app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
+// app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 const patchPath = path.join(__dirname, 'people.json');
 
