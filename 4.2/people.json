@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mustermann",
+    "vorname": "Max",
+    "alter": 30,
+    "wohnort": "Berlin",
+    "augenfarbe": "blau"
+  },
+  {
+    "name": "Schmidt",
+    "vorname": "Anna",
+    "alter": 25,
+    "wohnort": "Hamburg",
+    "augenfarbe": "grün"
+  },
+  {
+    "name": "Müller",
+    "vorname": "Peter",
+    "alter": 35,
+    "wohnort": "München",
+    "augenfarbe": "braun"
+  },
+  {
+    "name": "Schulz",
+    "vorname": "Laura",
+    "alter": 28,
+    "wohnort": "Köln",
+    "augenfarbe": "grau"
+  },
+  {
+    "name": "Becker",
+    "vorname": "Thomas",
+    "alter": 40,
+    "wohnort": "Frankfurt",
+    "augenfarbe": "blau"
+  }
+]
