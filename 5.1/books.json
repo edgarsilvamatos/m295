@@ -1,0 +1,93 @@
+[
+    {
+      "isbn": "978-0061120084",
+      "title": "To Kill a Mockingbird",
+      "year": 1960,
+      "author": "Harper Lee"
+    },
+    {
+      "isbn": "978-0141439563",
+      "title": "1984",
+      "year": 1949,
+      "author": "George Orwell"
+    },
+    {
+      "isbn": "978-1451673319",
+      "title": "Sapiens: A Brief History of Humankind",
+      "year": 2011,
+      "author": "Yuval Noah Harari"
+    },
+    {
+      "isbn": "978-0735219090",
+      "title": "Where the Crawdads Sing",
+      "year": 2018,
+      "author": "Delia Owens"
+    },
+    {
+      "isbn": "978-0547928210",
+      "title": "The Hobbit",
+      "year": 1937,
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "isbn": "978-1400032716",
+      "title": "The Kite Runner",
+      "year": 2003,
+      "author": "Khaled Hosseini"
+    },
+    {
+      "isbn": "978-0140449334",
+      "title": "Pride and Prejudice",
+      "year": 1813,
+      "author": "Jane Austen"
+    },
+    {
+      "isbn": "978-0062315007",
+      "title": "The Night Circus",
+      "year": 2011,
+      "author": "Erin Morgenstern"
+    },
+    {
+      "isbn": "978-0307277671",
+      "title": "Life of Pi",
+      "year": 2001,
+      "author": "Yann Martel"
+    },
+    {
+      "isbn": "978-1400031368",
+      "title": "The Curious Incident of the Dog in the Night-Time",
+      "year": 2003,
+      "author": "Mark Haddon"
+    },
+    {
+      "isbn": "978-0385319952",
+      "title": "Memoirs of a Geisha",
+      "year": 1997,
+      "author": "Arthur Golden"
+    },
+    {
+      "isbn": "978-0385474542",
+      "title": "In Cold Blood",
+      "year": 1966,
+      "author": "Truman Capote"
+    },
+    {
+      "isbn": "978-0060512806",
+      "title": "The Alchemist",
+      "year": 1988,
+      "author": "Paulo Coelho"
+    },
+    {
+      "isbn": "978-0385722205",
+      "title": "The Namesake",
+      "year": 2003,
+      "author": "Jhumpa Lahiri"
+    },
+    {
+      "isbn": "978-0679746041",
+      "title": "Into the Wild",
+      "year": 1996,
+      "author": "Jon Krakauer"
+    }
+  ]
+    
