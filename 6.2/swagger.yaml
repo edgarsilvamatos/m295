@@ -1,0 +1,155 @@
+swagger: '2.0'
+info:
+  title: Library API
+  description: Library API consisting of Books and Lends
+  version: 1.0.0
+host: localhost:3000
+basePath: /
+tags:
+  - name: books
+    description: Operations related to books
+  - name: lends
+    description: Operations related to lending books
+schemes:
+  - http
+paths:
+  /books:
+    get:
+      tags:
+      - books
+      description: ''
+      responses:
+        '200':
+          description: OK
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+      - books
+      description: ''
+      parameters:
+        - name: body
+          in: body
+          schema:
+            type: object
+            properties:
+              title:
+                example: any
+              author:
+                example: any
+              isbn:
+                example: any
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+  /books/{isbn}:
+    get:
+      tags:
+      - books
+      description: ''
+      parameters:
+        - name: isbn
+          in: path
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+    put:
+      tags:
+      - books
+      description: ''
+      parameters:
+        - name: isbn
+          in: path
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+    delete:
+      tags:
+      - books
+      description: ''
+      parameters:
+        - name: isbn
+          in: path
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+    patch:
+      tags:
+      - books
+      description: ''
+      parameters:
+        - name: isbn
+          in: path
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+  /lends:
+    get:
+      tags:
+      - lends
+      description: ''
+      responses:
+        '200':
+          description: OK
+    post:
+      tags:
+      - lends
+      description: ''
+      parameters:
+        - name: body
+          in: body
+          schema:
+            type: object
+            properties:
+              isbn:
+                example: any
+              customerId:
+                example: any
+              returnedAt:
+                example: any
+              burrowedAt:
+                example: any
+      responses:
+        '201':
+          description: Created
+        '422':
+          description: Unprocessable Entity
+  /lends/{id}:
+    get:
+      tags:
+      - lends
+      description: ''
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+    delete:
+      tags:
+      - lends
+      description: ''
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: string
+      responses:
+        default:
+          description: ''
